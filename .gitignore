@@ -1,0 +1,42 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Database files and backups
+*.db
+*.sqlite3
+*.dump
+*.backup
+
+# Generated TypeScript files
+*.tsbuildinfo
+
+# Original task materials and procurement data
+task_kit/
+backend/data/source/
+backend/data/processed/
+backend/reports/
